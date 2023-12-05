@@ -73,3 +73,9 @@ h2{
     border-radius: 30px;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
